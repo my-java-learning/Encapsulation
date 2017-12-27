@@ -17,7 +17,10 @@ public class Main {
 //		player.looseHealth(damage);
 //		System.out.println("Remaining hitPoints = " + player.healthRemaining());
 
-        EnhancedPlayer enhancedPlayer = new EnhancedPlayer("Tim", 250, "Sword");
-        System.out.println("Initial hitPoints is " + enhancedPlayer.getHealth());
+//        EnhancedPlayer enhancedPlayer = new EnhancedPlayer("Tim", 250, "Sword");
+//        System.out.println("Initial hitPoints is " + enhancedPlayer.getHealth());
+        Printer printer = new Printer(50,true);
+        printer.printPage(5);
+
     }
 }
